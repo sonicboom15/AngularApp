@@ -1,0 +1,46 @@
+.banner{
+    background-color: gray;
+    padding: 15px;
+}
+.contactRow{
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+.banner > .col{
+    width: fit-content;
+    margin: auto;
+}
+.slider {
+    background: linear-gradient(to right, #82CFD0 0%, #82CFD0 0%, #fff 0%, #fff 100%);
+    border: solid 1px #82CFD0;
+    border-radius: 8px;
+    height: 15px;
+    width: 100%;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;   
+  }
+
+.profileImage{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 4px;
+    border: 4px dotted orange;
+}
+.imageContainer{
+    padding-top: 15px;
+    border-radius: 50%;
+    margin: auto;   
+    width: fit-content;
+}
+.profileName{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.contentContainer{
+    display: flex;
+    padding: 15px;
+}
